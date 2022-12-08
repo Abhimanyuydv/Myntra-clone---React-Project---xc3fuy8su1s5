@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+}
+.footer{
+    background-color:#fafbfc;
+   display: flex;
+   justify-content: space-evenly;
+margin-top: 60px;
+text-align: justify;
+ }
+
+ p{
+
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: bolder;
+ }
+ img{
+    width: 30%;
+    height: 80px;
+    margin-left: 5px;
+ }
+ li{
+    list-style: none;
+    padding: 5px;
+    color: #696b79;
+    display: block;
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 5px;
+    cursor: pointer;
+    line-height: normal;
+
+ }
+ .p-tag{
+    text-align: center;
+ }
+.middle-section{
+    margin-left: 100px;
+}
+    
+
+
+    
