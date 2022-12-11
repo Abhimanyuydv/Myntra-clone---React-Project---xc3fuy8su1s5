@@ -3,8 +3,9 @@
     padding:0;
 }
 .img-home{
-    width: 100%;
-    height: max-content;
+    
+    width: 90%;
+    height: 100%;
 }
 h1{
     margin-top: 40px;
@@ -18,7 +19,7 @@ h1{
     
 }
 .img-section img{
-width: 220px;
-height: 250px;
+width: 200px;
+height: 200px;
 
 }

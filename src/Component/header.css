@@ -59,7 +59,9 @@ ul li{
     font-weight: bolder;
     cursor: pointer;
 }
-
+li a{
+   text-decoration: none; 
+}
 
 
 
