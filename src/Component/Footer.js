@@ -5,9 +5,8 @@ import './footer.css';
 export default function footer() {
   return (
     <div className='footer'>
-        <div>
+      <div>
       <p>ONLINE SHOPPING</p>
-      
       <li>Men</li>
       <li>Women</li>
       <li>Kids</li>

@@ -4,65 +4,74 @@
 }
 .navbar{
     display: flex;
-    align-items: center;
-    height: 100px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    justify-content: center;
+    box-shadow: rgb(0 0 0 / 16%) 0px 1px 4px;
     position: sticky;
-    top: 0;
+    top: 0px;
     background-color: white;
- 
-}
-.img{
-    height: 100px;
-    width: 100px;
-    margin-left: 34px;
+    height: 74px;
 }
 ul{
     display: flex;
-    margin-left: 30px;
-    
-    
+    gap: 15px;
+    margin-top: 15px;
+    margin-right: 100px;
 }
-ul li{
-   text-decoration: none ;
-    padding: 15px;
-    font-weight: bolder;
-    cursor: pointer;
-    font-size: 16px;
+.logo{
+    padding-left:20px ;
+    height:75px;
+    width: 80px;
 }
-.right {
-    display: flex;
-    justify-content: space-evenly;
-  margin-left: 100px;
-  
-
-}
-.input{
-    width: 300px;
+input{
     height: 30px;
-
-}
-
-.profile{
-    
-    margin-left: 150px;
-    font-weight: bolder;
-    cursor: pointer;
-}
-.wishlist{
-    margin-left: 20px;
-    font-weight: bolder;
-    cursor: pointer;
-}
-.bag{
-    margin-left: 20px;
-    font-weight: bolder;
-    cursor: pointer;
+    width: 80%;
+    margin-top:15px ;
+    margin-right: 100px;
 }
 li a{
-   text-decoration: none; 
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+}
+.right-section{
+    display: flex;
+    margin-top: 15px;
+    gap: 15px;
+    color: black;
+    font-weight: bold;
 }
 
+
+@media(max-width:650px){
+    
+        .navbar{
+          
+            height: 100%;
+            width: 100%;
+            flex-direction: column;
+            
+            }
+            .input{
+                margin-left: 12%;
+                width: 243px;
+            }
+            ul{    
+                justify-content: center;
+                margin-left: 56px;
+            }     
+    
+           .img{
+
+          }
+          .right-section{
+            justify-content: center;
+         }
+      
+      }
+    
+
+       
+  
 
 
 
