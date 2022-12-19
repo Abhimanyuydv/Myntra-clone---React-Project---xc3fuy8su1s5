@@ -1,9 +1,9 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Header from './Component/Header';
 import Home from './Component/Home';
 import Footer from './Component/Footer';
-import { Route, Routes, Link } from "react-router-dom";
+import { Route, Routes} from "react-router-dom";
 import Product from './Component/Product';
 import { useEffect, useState } from "react";
 
