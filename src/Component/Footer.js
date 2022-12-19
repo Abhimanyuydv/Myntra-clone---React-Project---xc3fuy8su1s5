@@ -28,8 +28,8 @@ export default function footer() {
 
       <p>EXPERIENCE MYNTRA APP ON MOBILE</p>
         <div >
-      <img src={require('../image/store.png')} />
-      <img src={require('../image/play.png')} />
+      <img src={require('../image/store.png')}alt="" />
+      <img src={require('../image/play.png')} alt=""/>
 
         </div>
         </div>

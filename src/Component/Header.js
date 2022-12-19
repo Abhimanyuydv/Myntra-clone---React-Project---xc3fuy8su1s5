@@ -22,7 +22,7 @@ export default function Header({data,setTempData}) {
 
     <div className='navbar'>
       
-     <img className='logo' src={require('../image/myntra.png')} />
+     <img className='logo' src={require('../image/myntra.png')}alt="" />
      
       <ul>
        <li><Link className="li-link" to="/">Home </Link></li>
