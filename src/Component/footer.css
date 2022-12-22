@@ -6,22 +6,24 @@
     background-color:#fafbfc;
    display: flex;
    justify-content: space-evenly;
-margin-top: 60px;
-text-align: justify;
+   margin-top: 60px;
+   text-align: justify;
+   
  }
 
- p{
+ /* p{
 
     margin-bottom: 10px;
     font-size: 15px;
     font-weight: bolder;
- }
- img{
+ } */
+ /* img{
     width: 30%;
     height: 80px;
     margin-left: 5px;
- }
+ } */
  li{
+   
     list-style: none;
     padding: 5px;
     color: #696b79;
@@ -37,9 +39,15 @@ text-align: justify;
     text-align: center;
  }
 .middle-section{
-    margin-left: 100px;
+   margin-left: 200px;
 }
-    
+.link-download section{
 
+}
+.desktop-iOSDownLink {
+   margin-left: 10px;
+   height: 42px;
+   width: 150px;
+}
 
     

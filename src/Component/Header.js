@@ -26,7 +26,7 @@ export default function Header({data,setTempData}) {
      
       <ul>
        <li><Link className="li-link" to="/">Home </Link></li>
-        <li><Link to="/Product">Product </Link></li>
+        <li><Link to="/product">Product </Link></li>
         </ul>
         
         <div>

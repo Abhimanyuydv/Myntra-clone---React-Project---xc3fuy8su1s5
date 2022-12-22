@@ -8,6 +8,7 @@ import Product from './Component/Product';
 import { useEffect, useState } from "react";
 
 
+
 function App() {
   const [data, setdata] = useState([]);
   const [tempData,setTempData]=useState([""])
@@ -23,7 +24,7 @@ function App() {
   return (
     <div className="App">
       <Header data={data} setTempData={setTempData}/>
-
+     
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/product" element={<Product tempData={tempData} />} />
