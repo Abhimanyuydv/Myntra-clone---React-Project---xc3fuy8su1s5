@@ -34,3 +34,24 @@
     font-size: 16px;
     margin-bottom: 20px;
  }
+ 
+ .cart-container{
+    margin-top: 30px;
+ }
+ .cart-image{
+    height: 200px;
+    width: 200px;
+    margin-top: 30px;
+ }
+ .cart-btn{
+    background-color: #db4333; 
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-bottom: 20px;
+    width: 150px;
+ }

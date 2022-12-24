@@ -1,8 +1,17 @@
 import React from 'react'
-import './product.css';
+import { useState } from 'react';
 
-export default function Product({ tempData }) {
 
+export default function Product({ tempData,cart,setCart}) {
+
+  function handleClick(e) {
+    let clickedElem = e.target.id
+    let temp1 = [...tempData];
+    let product = temp1[clickedElem];
+    setCart([...cart, product])
+
+  }
+  // console.log(cart)
   return (
     <div className='product-wrapper'>
       {tempData.map((item, index) => {
@@ -13,7 +22,7 @@ export default function Product({ tempData }) {
             </div>
             <p>{item.price}</p>
             <h6>{item.title}</h6>
-            <button className='btn'>Add To Bag</button>
+            <button id={index} onClick={handleClick} className='btn'>Add To Bag</button>
 
           </div>
         )

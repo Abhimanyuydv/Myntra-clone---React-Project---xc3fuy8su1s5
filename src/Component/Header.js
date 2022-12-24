@@ -38,7 +38,7 @@ export default function Header({data,setTempData}) {
          <div className='right-section'>
         <li>Profile</li>
         <li>Wishlist</li>
-        <li>Bag</li>
+        <li><Link to ="/bag">Bag</Link></li>
    </div>
       
         </div>
