@@ -37,8 +37,8 @@ export default function Header({data,setTempData}) {
           onKeyPress={handleClick}/>
           </div>
          <div className='right-section'>
-        <li>Profile</li>
-        <li>Wishlist</li>
+        {/* <li>Profile</li>
+        <li>Wishlist</li> */}
         <li><Link to ="/bag"><BsFillBagFill size="30px"/></Link></li>
    </div>
       
