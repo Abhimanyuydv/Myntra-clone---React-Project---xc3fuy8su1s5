@@ -1,6 +1,7 @@
 import React from 'react'
 import './product.css';
 
+
 export default function Product({ tempData,cart,setCart}) {
 
   function handleClick(e) {

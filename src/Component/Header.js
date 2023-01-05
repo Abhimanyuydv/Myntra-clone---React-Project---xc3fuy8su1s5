@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 import './header.css';
 import { Link } from "react-router-dom";
-
+// import {FaHome } from "react-icons/fa";
+import {BsFillBagFill } from "react-icons/bs";
 
 export default function Header({data,setTempData}) {
   const [searchValue, setSearchValue] = useState([""])
@@ -38,7 +39,7 @@ export default function Header({data,setTempData}) {
          <div className='right-section'>
         <li>Profile</li>
         <li>Wishlist</li>
-        <li><Link to ="/bag">Bag</Link></li>
+        <li><Link to ="/bag"><BsFillBagFill size="30px"/></Link></li>
    </div>
       
         </div>
