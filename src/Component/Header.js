@@ -25,7 +25,7 @@ export default function Header({data,setTempData}) {
      <img className='logo' src={require('../image/myntra.png')}alt="" />
      
       <ul>
-       <li><Link className="li-link" to="/">Home </Link></li>
+       <li><Link  to="/">Home </Link></li>
         <li><Link to="/product">Product </Link></li>
         </ul>
         

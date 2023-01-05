@@ -4,16 +4,15 @@
 }
 .navbar{
     display: flex;
-    justify-content: center;
     box-shadow: rgb(0 0 0 / 16%) 0px 1px 4px;
     position: sticky;
     top: 0px;
     background-color: white;
-    height: 150px;
+    /* height: 150px; */
 }
 ul{
     display: flex;
-    gap: 15px;
+    gap: 45px;
     margin-top: 15px;
     margin-right: 100px;
 }
@@ -28,10 +27,11 @@ input{
     margin-top:15px ;
     margin-right: 100px;
 }
-li a{
+ li a{
     text-decoration: none;
     color: grey;
     font-weight: bold;
+    list-style: none;
 }
 .right-section{
     display: flex;
@@ -40,7 +40,6 @@ li a{
     color: black;
     font-weight: bold;
 }
-
 
 @media(max-width:650px){
     

@@ -8,6 +8,7 @@ export default function Product({ tempData,cart,setCart}) {
     let temp1 = [...tempData];
     let product = temp1[clickedElem];
     setCart([...cart, product])
+    
 
   }
   // console.log(cart)
